@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "Hütten",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::25832" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "Name": "Timos Heim", "Beschreib": "Viel Beton und ein bisschen Liebe. Hier lässt es sich aushalten. Aber nicht lange.", "Foto": "DCIM\/JPEG_20221214224120156.jpg", "Datum": "2022\/12\/14" }, "geometry": { "type": "Point", "coordinates": [ 643986.79882436117623, 5481346.902737975120544 ] } },
+{ "type": "Feature", "properties": { "id": 2, "Name": "Ast Unterschlupf", "Beschreib": "Ein aus Ästen und Laub bereiter Unterschlupf. Gesichtet 2022. Falls er weg ist, finden sich nun noch Spuren?", "Foto": "DCIM\/JPEG_20221227154107080.jpg", "Datum": "2022\/12\/27" }, "geometry": { "type": "Point", "coordinates": [ 643465.664501243154518, 5479757.589986665174365 ] } },
+{ "type": "Feature", "properties": { "id": 3, "Name": "Rodelhütte", "Beschreib": "Ein Raum mit 4 Wänden, keine Tür. Innen ist ein Kamin, aber eine Brennkammer ist nicht mehr zugänglich. Ebenfalls gibt es ein Veranda mit 2 Bänken.", "Foto": "DCIM\/JPEG_20221215160737264.jpg", "Datum": "2022\/12\/15" }, "geometry": { "type": "Point", "coordinates": [ 641455.992502339999191, 5480406.402267409488559 ] } },
+{ "type": "Feature", "properties": { "id": 4, "Name": "Shelter", "Beschreib": "Ein Shelter mit tiefergelegtem Boden, und Plane. Relativ zerstört. Mit Ausbuchtng für Feuer\/Kamin. Müll verteiöt um Shelter (Alu, Plastik). Aufgenommen Dezember 27 2022", "Foto": "DCIM\/JPEG_20221227155731192.jpg", "Datum": "2022\/12\/27" }, "geometry": { "type": "Point", "coordinates": [ 642638.413832355756313, 5479694.506420608609915 ] } },
+{ "type": "Feature", "properties": { "id": 5, "Name": "Shelter gut", "Beschreib": "Ein ordentlich gebautes gut erhaltenes Shelter mit Planendach", "Foto": "DCIM\/JPEG_20221228154259601.jpg", "Datum": "2022\/12\/28" }, "geometry": { "type": "Point", "coordinates": [ 641785.851605568546802, 5479786.145625906065106 ] } }
+]
+}
