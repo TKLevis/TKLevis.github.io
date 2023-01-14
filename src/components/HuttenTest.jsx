@@ -39,7 +39,8 @@ class HuttenTest extends Component{
       {huttenData.features.map(hut => (
         <Marker
         key = {hut.properties.id}
-        position = {proj4('+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs', '+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs', [hut.geometry.coordinates[1], hut.geometry.coordinates[0]])}
+        //position = {proj4('+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs', '+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs', [hut.geometry.coordinates[1], hut.geometry.coordinates[0]])}
+        position ={[hut.geometry.WGS84[1], hut.geometry.WGS84[0]]}
         icon={this.markerIcon}
         >
             <Popup>
